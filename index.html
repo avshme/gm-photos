@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>gm photos </title>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600&display=swap&subset=cyrillic"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600&display=swap&subset=cyrillic" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
@@ -59,13 +60,19 @@
             Я люблю людей, которых фотографирую. Я имею в виду, что они мои друзья, через свои фотографии я живу с ними
         </h2>
         <div class="video-slider">
-            <div class="video-slider__item">
-                <div class="video__btn"></div>
-            </div>
-            <div class="video-slider__item">
+            <div class="video-slider__container">
+                <div class="video-slider__item">
+                    <div class="video__btn"></div>
+                </div>
+                <div class="video-slider__item">
+                    <div class="video__btn"></div>
+                </div>
+                <div class="video-slider__item">
+                    <div class="video__btn"></div>
+                </div>
             </div>
         </div>
-        <div class="video-section__slider-btn">
+        <div class="video-section__slider-btn ">
             <button class="slider-btn">
                 <img src="./img/icons/left-btn.svg" alt="left-btn">
             </button>
@@ -120,7 +127,7 @@
             <p class="comments__commentator-name">
                 Полина Кузина
             </p>
-            <div class="video-section__slider-btn">
+            <div class="comments__slider-btn">
                 <button class="slider-btn">
                     <img src="./img/icons/left-btn.svg" alt="left-btn">
                 </button>
@@ -144,7 +151,7 @@
                         <li class="nav-list__li footer__nav-li"><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
-        </div>
+            </div>
             <form>
                 <input class="footer__email" type="email" name="email" placeholder="Your email">
                 <input class="btn footer__submit" type="submit" value="Отправить">
@@ -159,4 +166,5 @@
         </div>
     </footer>
 </body>
+
 </html>
